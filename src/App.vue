@@ -19,7 +19,7 @@
 				 //console.log(localStorage.getItem('bsid'))
 				  // console.log(localStorage.getItem('bsname'))
 			  }else{
-				 // this.$router.push({path:'login'})
+				  this.$router.push({path:'login'})
 			  }
 	 	  	console.log(res)
 	 	  }).catch(err => {
